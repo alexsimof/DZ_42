@@ -1,0 +1,9 @@
+.app-baner {
+  text-align: center;
+  background-color: rgb(246, 248, 149);
+  padding: 5px 0;
+}
+
+.app-baner span {
+  font-weight: bold;
+}
