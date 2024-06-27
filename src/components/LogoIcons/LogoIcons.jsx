@@ -1,8 +1,10 @@
 
 
-export function LogoIcons(text, id) {
+export function LogoIcons({ text, className }) {
 
   return (
-    <li key={id}>{text}</li>
-  )
+    <li className={className}>
+      <img src={text} alt="sponsor-logo" />
+    </li>
+  );
 }

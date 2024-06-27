@@ -8,20 +8,29 @@ import { MainScreen } from './components/MainScreen';
 import { Form } from './components/Form';
 import { Button } from './components/Button';
 import { Screen } from './components/Screen';
+import { SliderBlock } from './components/SliderBlock';
 
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './App.sass';
 
 export function App() {
 
-  const [banerVisible, setBanerVisible] = useState(JSON.parse(localStorage.getItem('baner')) || true);
+  const data = JSON.parse(localStorage.getItem('baner'));
+  let [banerVisible, setBanerVisible] = useState(data);
   const closeBanerVisible = () => {
     setBanerVisible(!banerVisible)
+  }
+
+  if (data === null) {
+    banerVisible = true
   }
 
   useEffect(() => {
     localStorage.setItem('baner', JSON.stringify(banerVisible));
   }, [banerVisible]);
-  // console.log(banerVisible);
+
 
 
   return (
@@ -50,6 +59,7 @@ export function App() {
       </header>
       <MainScreen />
       <Screen />
+      <SliderBlock />
     </>
   );
 }

@@ -9,9 +9,9 @@ export function Screen() {
       <p className="screen-text">
         Trusted by over 16,000 companies and millions of learners around the world
       </p>
-      <ul>
-        {IconLinks.map((link, id) => (
-          <LogoIcons text={link} key={id} />
+      <ul className="screen-block">
+        {IconLinks.map(({ link, id }) => (
+          <LogoIcons className="screen-list" text={link} key={id} />
         ))}
       </ul>
     </div>
