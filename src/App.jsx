@@ -9,6 +9,7 @@ import { Form } from './components/Form';
 import { Button } from './components/Button';
 import { Screen } from './components/Screen';
 import { SliderBlock } from './components/SliderBlock';
+import { ModalWin } from './components/ModalWin';
 
 
 import "slick-carousel/slick/slick.css";
@@ -30,7 +31,6 @@ export function App() {
   useEffect(() => {
     localStorage.setItem('baner', JSON.stringify(banerVisible));
   }, [banerVisible]);
-
 
 
   return (
@@ -60,6 +60,7 @@ export function App() {
       <MainScreen />
       <Screen />
       <SliderBlock />
+      <ModalWin />
     </>
   );
 }
