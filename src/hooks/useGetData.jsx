@@ -13,5 +13,7 @@ export function useGetData() {
       .then(response => { setReview(response) })
   }, [url])
 
-  return [review]
+  const revs = review.slice(0, 10)
+
+  return [revs]
 }

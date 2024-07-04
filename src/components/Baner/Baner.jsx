@@ -1,12 +1,9 @@
 
+
 import { Button } from '../Button';
 import './Baner.sass';
 
-
-
 export function Baner({ closeBanerVisible }) {
-
-
 
   return (
     <div className="app-baner">

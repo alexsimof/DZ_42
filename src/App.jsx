@@ -23,14 +23,14 @@ export function App() {
   const closeBanerVisible = () => {
     setBanerVisible(!banerVisible)
   }
-
-  if (data === null) {
-    banerVisible = true
-  }
-
+  if (data === null) { banerVisible = true }
   useEffect(() => {
     localStorage.setItem('baner', JSON.stringify(banerVisible));
   }, [banerVisible]);
+
+
+  const [modalActive, setModalActive] = useState(false)
+  const openModal = () => { setModalActive(!modalActive) }
 
 
   return (
@@ -51,7 +51,7 @@ export function App() {
         <img src={basket} alt="basket" />
         <div className="app-btn">
           <Button className="app-login" text="Log in" />
-          <Button className="app-signup" text="Sign Up" />
+          <Button onClick={openModal} className="app-signup" text="Sign Up" />
           <button className="app-lang">
             <img src={language} alt="language" />
           </button>
@@ -60,7 +60,10 @@ export function App() {
       <MainScreen />
       <Screen />
       <SliderBlock />
-      <ModalWin />
+      {
+        modalActive ? <ModalWin openModal={openModal} /> : null
+      }
+
     </>
   );
 }
