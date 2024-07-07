@@ -1,7 +1,7 @@
 
-import './Body.sass';
+import './MainScreen.sass';
 
-export function Body() {
+export function MainScreen() {
 
   return (
     <section>
