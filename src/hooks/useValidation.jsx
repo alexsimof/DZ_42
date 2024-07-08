@@ -29,7 +29,8 @@ export const useValidation = (value, validations) => {
           const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
           regex.test(String(value).toLowerCase()) ? setEmailError(false) : setEmailError(true)
           break;
-
+        default:
+          break;
       }
     }
   }, [value])

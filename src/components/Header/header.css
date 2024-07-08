@@ -1,0 +1,39 @@
+.app-header {
+  position: relative;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 4px -5px;
+  z-index: 5;
+}
+.app-btn {
+  display: flex;
+  align-items: center;
+}
+.app-login {
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+  background: #fff;
+}
+.app-signup {
+  width: 80px;
+  margin-right: 10px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 12px 0;
+}
+.app-lang {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=header.css.map */

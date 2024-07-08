@@ -11,7 +11,7 @@ export function useGetData() {
     fetch(url)
       .then(data => data.json())
       .then(response => { setReview(response) })
-  }, [url])
+  }, [])
 
   const revs = review.slice(0, 10)
 

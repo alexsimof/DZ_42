@@ -1,0 +1,57 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  position: relative;
+  background: #fff;
+  padding: 20px 50px 30px;
+  border-radius: 5px;
+}
+.modal-title {
+  text-align: center;
+}
+.modal-form {
+  margin: 0;
+}
+.modal-input {
+  display: block;
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.modal-input::placeholder {
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+}
+.modal-button {
+  width: 316px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #9982ff;
+  border: none;
+}
+.modal-button[disabled] {
+  background: #a3a3a3;
+}
+.modal-close {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=register.css.map */
