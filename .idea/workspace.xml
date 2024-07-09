@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e65d658d-a33e-44e2-b653-5cd60cc7c6cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/header.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalWin/ModalWin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalWin/ModalWin.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/register.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalWin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useGetData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useGetData.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useValidation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useValidation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <updated>1720345819808</updated>
       <workItem from="1720345820804" duration="42000" />
       <workItem from="1720345872277" duration="7833000" />
-      <workItem from="1720382782176" duration="11550000" />
+      <workItem from="1720382782176" duration="13374000" />
     </task>
     <servers />
   </component>

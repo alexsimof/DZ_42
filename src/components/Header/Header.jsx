@@ -2,7 +2,7 @@ import logo from "../../logo.svg";
 import basket from "../../basket.svg";
 import language from "../../language.svg";
 
-import { Form } from "../Form";
+import { SearchForm } from "../SearchForm";
 import { Button } from "../Button";
 import { Link } from "react-router-dom";
 
@@ -16,7 +16,7 @@ export function Header() {
         <img src={logo} className="app-logo" alt="logo"/>
       </Link>
       <span>Categories</span>
-      <Form />
+      <SearchForm />
       <span>Udemy Business</span>
       <span>Teach on Udemy</span>
       <img src={basket} alt="basket"/>
