@@ -1,1 +1,0 @@
-export { ModalWin } from './ModalWin'

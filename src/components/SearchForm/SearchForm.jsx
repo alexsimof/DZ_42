@@ -1,7 +1,7 @@
 import search from './search.svg';
-import './Form.sass';
+import './SearchForm.sass';
 
-export function Form() {
+export function SearchForm() {
 
   return (
     <form className="app-form">
