@@ -1,11 +1,11 @@
 
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
-import {Baner} from "../Baner";
-import { Header } from "../Header";
-import {MainScreen} from "../MainScreen";
-import {Screen} from "../Screen";
-import {SliderBlock} from "../SliderBlock";
+import { Baner } from "../../components/Baner";
+import { Header } from "../../components/Header";
+import { MainScreen } from "../../components/MainScreen";
+import { Screen } from "../../components/Screen";
+import { SliderBlock } from "../../components/SliderBlock";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,6 +13,10 @@ import "slick-carousel/slick/slick-theme.css";
 import './home.sass';
 
 export function Home() {
+
+  useEffect(() => {
+    document.title = 'Home'
+  }, [])
 
   const data = JSON.parse(localStorage.getItem('baner'));
   let [banerVisible, setBanerVisible] = useState(data);
